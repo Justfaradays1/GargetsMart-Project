@@ -1,0 +1,167 @@
+@media (min-width: 30.5rem) {
+  html {
+    font-size: 56.25%;
+  }
+
+}
+
+@media (min-width: 31rem) {
+  html{
+    font-size: 56%;
+  }
+
+  .intro .product-intro p{
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+  }
+
+ 
+}
+
+@media (min-width: 31rem) {
+  html{
+    font-size: 62.5%;
+  }
+
+  .Top-header{
+    justify-content: center;
+  }
+  .intro{
+    gap: 0.8rem;
+  }
+
+  .intro ol li{
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 36rem) {
+  html{
+    font-size: 63%;
+  }
+
+  .intro .product-intro p{
+    font-size: 1.3rem;
+    letter-spacing: 0;
+    margin-top: 0.1rem;
+    line-height: 1.5rem;
+
+  }
+  
+}
+
+@media (min-width: 36rem) {
+  html{
+    font-size: 68.75%;
+  }
+
+  .product-intro h1{
+    font-size: 5rem;
+  }
+
+  .display{
+    width: 25rem;
+    height: 19rem;
+  }
+}
+
+@media (min-width: 36rem) {
+  html{
+    font-size: 68.75%;
+  }
+}
+
+@media (min-width: 40rem) {
+  html{
+    font-size: 70%;
+  }
+   .intro{
+    gap: 0.4rem;
+  }
+  .product-intro h1{
+    font-size: 6rem;
+  }
+   .intro ol li{
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (min-width: 46rem) {
+  html{
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 50rem) {
+  html{
+    font-size: 78%;
+  }
+    .intro ol li{
+    font-size: 1.4rem;
+  }
+
+  .product-intro h1{
+    font-size: 6.5rem;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    font-weight: 900;
+  }
+
+  .product-image{
+    width: 30rem;
+    height: 25rem;
+    object-fit: contain;
+    /* overflow: hidden; */
+    object-position: center;
+    justify-content: center;
+    align-content: center;
+    padding: 0 5rem;
+
+  }
+
+  .product-image img{
+    align-self: center;
+    border-radius: 0;
+  }
+
+  .intro .product-intro p{
+    font-size: 1.5rem;
+    letter-spacing: 1;
+    line-height: 1.7rem;
+    text-align: center;
+
+  }
+  .intro{
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .nav-links{
+    justify-content: center;
+    gap: 2.7rem;
+  }
+
+   .intro ol {
+    font-size: 1.4rem;
+    align-self: center;
+    justify-self: center;
+  }
+
+}
+
+@media (min-width: 56rem) {
+  html{
+    font-size: 83%;
+  }
+
+  .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50rem;
+    margin-block-start: -7rem;
+  }
+}
+
+
