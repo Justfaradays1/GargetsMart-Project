@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <div class="Top-header">
+      <div class="header-top">
         <h2 class="nav-logo">GadgetsMart</h2>
         <div class="search-bar">
           <img
@@ -20,7 +20,7 @@
         </div>
         <img
           src="icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-          alt="person-icon"
+          alt="person-icon" class="icon"
         />
         <img
           src="/icons/shopping_cart_checkout_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
@@ -40,19 +40,25 @@
         </ol>
       </nav>
     </header>
-    <section class="intro">
-        <div class="product-intro">
-            <h1>Latest Tech <br>Gadgets</h1>
+    <main>
+      <section class="hero-section">
+        <div class="intro container">
+          <div class="product-intro">
+            <h1>Latest Tech <br><span class="accent">Gadgets</span></h1>
             <p>Discover cutting edge technology and innovative gadgets that transform your digital lifestyle.</p>
 
             <ol>
-                <a href="#"><li>Shop Now</li></a>
-               <a href="#"><li class="dif-btn">Learn More</li>
-            </ol></a> 
+                <li><a href="#" class="btn">Shop Now</a></li>
+               <li>
+                <a href="#" class="btn dif-btn">Learn More</a>
+              </li>
+            </ol>
         </div>
         <div class="product-image">
             <img src="images/erik-mclean-BXiLSwwvqrY-unsplash.jpg" alt="product-image">
         </div>
+        </div>
+        
     </section>
 
     <section class="category">
@@ -86,5 +92,7 @@
       </div>
 
     </section>
+    </main>
+    
   </body>
 </html>
