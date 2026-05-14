@@ -8,7 +8,44 @@
     <link rel="stylesheet" href="media.css" />
   </head>
   <body>
-    <header>
+    <header class="flex g-1">
+      <div class="logo">
+        <h2>GadgetsMart</h2>
+      </div>
+
+      <div class="search-bar">
+        <img
+          src="icons/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="search-icon"
+          class="search-icon"
+          style="width: 30px; height: 30px"
+        />
+        <input type="text" placeholder="Search Gadgets" class="search-text" />
+      </div>
+      <nav class="nav-links">
+        <a href="#" class="nav-link">Smartphones</a>
+        <a href="#" class="nav-link">Laptops</a>
+        <a href="#" class="nav-link">Wearables</a>
+        <a href="#" class="nav-link">Audio</a>
+        <a href="#" class="nav-link">Gaming</a>
+        <a href="#" class="nav-link">Accessories</a>
+      </nav>
+      <div class="header-right">
+        <div class="login-btn">
+          <a href="#" class="btn lmr">Login</a>
+          <a href="#" class="btn cta">Sign Up</a>
+        </div>
+
+        <div class="menu">
+          <img
+            src="icons/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
+            alt="menu-icon"
+            style="width: 28px; height: 30px"
+          />
+        </div>
+      </div>
+    </header>
+    <!-- <header>
       <div class="header-top">
         <h2 class="nav-logo">GadgetsMart</h2>
         <div class="search-bar">
@@ -18,16 +55,20 @@
           />
           <input type="text" placeholder="Search for gadgets..." />
         </div>
-        <img
-          src="icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-          alt="person-icon"
-          class="icon person-icon"
-        />
+        <div class="heaader-left">
+          <img
+            src="icons/person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+            alt="person-icon"
+            class="icon person-icon"
+          />
+        </div>
         <img
           src="icons/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png"
           alt="Add2Cart"
           class="icon"
         />
+        <a href="#" class="btn">Login</a>
+
       </div>
 
       <nav class="nav-bar">
@@ -40,7 +81,7 @@
           <a href="#"><li class="nav-link">Accessories</li></a>
         </ol>
       </nav>
-    </header>
+    </header> -->
     <main>
       <section class="hero-section">
         <div class="intro container">
@@ -59,42 +100,46 @@
             </ol>
           </div>
           <div class="product-image">
-            <img src="images/onur-binay-_yC2htzMYnI-unsplash.jpg" loading="lazy"/>
+            <img
+              src="images/onur-binay-_yC2htzMYnI-unsplash.jpg"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
 
-      <!-- <section class="category">
-      <h3>Shop by Category</h3>
-      <p id="p">Find exactly what you are looking for in our organization categories</p>
-      <div class="grid-container">
-        <div class="display img1">
-          <h4>Smartphones</h4>
-          <p>120+ products</p>
+      <section class="category">
+        <h3>Shop by Category</h3>
+        <p id="p">
+          Find exactly what you are looking for in our organization categories
+        </p>
+        <div class="grid-container">
+          <div class="display img1">
+            <h4>Smartphones</h4>
+            <p>120+ products</p>
+          </div>
+          <div class="display img2">
+            <h4>Laptops</h4>
+            <p>95+ products</p>
+          </div>
+          <div class="display img3">
+            <h4>Audio</h4>
+            <p>75+ products</p>
+          </div>
+          <div class="display img4">
+            <h4>Wearables</h4>
+            <p>45+ products</p>
+          </div>
+          <div class="display img5">
+            <h4>Gaming</h4>
+            <p>85+ products</p>
+          </div>
+          <div class="display img6">
+            <h4>Tablets</h4>
+            <p>40+ products</p>
+          </div>
         </div>
-        <div class="display img2">
-          <h4>Laptops</h4>
-          <p>95+ products</p>
-        </div>
-        <div class="display img3">
-          <h4>Audio</h4>
-          <p>75+ products</p>
-        </div>
-        <div class="display img4">
-          <h4>Wearables</h4>
-          <p>45+ products</p>
-        </div>
-        <div class="display img5">
-          <h4>Gaming</h4>
-          <p>85+ products</p>
-        </div>
-        <div class="display img6">
-          <h4>Tablets</h4>
-          <p>40+ products</p>
-        </div>
-      </div>
-
-    </section> -->
+      </section>
     </main>
   </body>
 </html>
